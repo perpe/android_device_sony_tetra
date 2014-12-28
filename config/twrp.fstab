@@ -1,0 +1,29 @@
+# mount point	fstype		device
+
+/system		ext4		/dev/block/platform/sdhci.1/by-name/system 
+/cache		ext4		/dev/block/platform/sdhci.1/by-name/cache
+/data		ext4		/dev/block/platform/sdhci.1/by-name/userdata
+/boot		emmc		/dev/block/platform/sdhci.1/by-name/boot
+/recovery	emmc		/dev/block/platform/sdhci.1/by-name/recovery
+
+# Needed for bootloader.img
+/misc		emmc		/dev/block/platform/sdhci.1/by-name/misc
+/loader		emmc		/dev/block/platform/sdhci.1/by-name/loader
+/ubootlogo	emmc		/dev/block/platform/sdhci.1/by-name/ubootlogo
+/abi		emmc		/dev/block/platform/sdhci.1/by-name/abi
+/abi-sec	emmc		/dev/block/platform/sdhci.1/by-name/abi-sec
+/u-boot		emmc		/dev/block/platform/sdhci.1/by-name/u-boot
+/hwconf		emmc		/dev/block/platform/sdhci.1/by-name/hwconf
+/dt-blob	emmc		/dev/block/platform/sdhci.1/by-name/dt-blob
+
+# Needed for radio.img
+/umts-cal	emmc		/dev/block/platform/sdhci.1/by-name/umts-cal
+/sys-parm-dep	emmc		/dev/block/platform/sdhci.1/by-name/sys-parm-dep
+/sys-parm-ind	emmc		/dev/block/platform/sdhci.1/by-name/sys-parm-ind
+/cp-image	emmc		/dev/block/platform/sdhci.1/by-name/cp-imag
+/parm-spml-dep	emmc		/dev/block/platform/sdhci.1/by-name/parm-spml-dep
+/parm-spml-ind	emmc		/dev/block/platform/sdhci.1/by-name/parm-spml-ind
+/version-info	emmc		/dev/block/platform/sdhci.1/by-name/version-info
+/dsp-dram	emmc		/dev/block/platform/sdhci.1/by-name/dsp-dram
+/dsp-pram	emmc		/dev/block/platform/sdhci.1/by-name/dsp-pram
+/cp-boot	emmc		/dev/block/platform/sdhci.1/by-name/cp-boot
