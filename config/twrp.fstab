@@ -20,7 +20,7 @@
 /umts-cal	emmc		/dev/block/platform/sdhci.1/by-name/umts-cal
 /sys-parm-dep	emmc		/dev/block/platform/sdhci.1/by-name/sys-parm-dep
 /sys-parm-ind	emmc		/dev/block/platform/sdhci.1/by-name/sys-parm-ind
-/cp-image	emmc		/dev/block/platform/sdhci.1/by-name/cp-imag
+/cp-image	emmc		/dev/block/platform/sdhci.1/by-name/cp-image
 /parm-spml-dep	emmc		/dev/block/platform/sdhci.1/by-name/parm-spml-dep
 /parm-spml-ind	emmc		/dev/block/platform/sdhci.1/by-name/parm-spml-ind
 /version-info	emmc		/dev/block/platform/sdhci.1/by-name/version-info
