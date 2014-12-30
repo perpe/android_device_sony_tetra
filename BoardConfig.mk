@@ -49,6 +49,7 @@ TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
 TW_NO_USB_STORAGE := true
 TW_BRIGHTNESS_PATH := /sys/class/backlight/lm3630a_leda/brightness
 TW_MAX_BRIGHTNESS := 255
+TW_EXCLUDE_SUPERSU := true
 
 
 
