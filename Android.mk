@@ -22,6 +22,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(call match-prefix,inwatchz,$(underscore),$(PRODUCT_DEVICE)),true)
+ifeq ($(call match-prefix,tetra,$(underscore),$(PRODUCT_DEVICE)),true)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
